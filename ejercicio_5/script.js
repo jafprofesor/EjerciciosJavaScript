@@ -4,5 +4,4 @@
 // PASOS:
 // 1. Seleccionar la lista con document.getElementById.
 // 2. Agregar un event listener a cada botón de eliminar dentro de los <li>.
-// 3. En el evento, eliminar el elemento padre con parentNode.removeChild.
-
+// 3. En el evento, eliminar el elemento padre con parentNode.remove().
