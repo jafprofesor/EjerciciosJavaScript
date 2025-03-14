@@ -6,3 +6,9 @@
 // 2. Agregar un event listener al input para detectar 'keydown'.
 // 3. En el evento, actualizar el texto del párrafo con el valor del input.
 
+let entrada = document.getElementById("entrada");
+let resultado = document.getElementById("resultado");
+
+entrada.addEventListener("keydown", function () {
+  resultado.textContent = entrada.value;
+});
