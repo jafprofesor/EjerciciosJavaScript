@@ -6,3 +6,8 @@
 // 2. Agregar un event listener al div para detectar el evento 'scroll'.
 // 3. En el evento, cambiar el contenido del div para mostrar un mensaje.
 
+let scrollBox = document.getElementById("scrollBox");
+
+scrollBox.addEventListener("scroll", function () {
+  scrollBox.textContent = "¡Has hecho scroll!";
+});
